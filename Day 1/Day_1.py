@@ -1,8 +1,9 @@
 import pandas as pd
 
+# --- Day 1: Sonar Sweep ---
 # Part 1
 
-data = pd.read_csv('Puzzle_Input', sep=" ", header=None)
+data = pd.read_csv('Day_1_Input', sep=" ", header=None)
 
 total_1 = 0
 for row in range(len(data)-1):
